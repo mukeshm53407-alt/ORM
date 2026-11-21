@@ -46,11 +46,12 @@ class Employee (models.Model):
     email=models. EmailField()
 class EmployeeAdmin(admin.ModelAdmin):
     list_display=('eid', 'name', 'salary', 'age', 'email')
+~~~
 
 
 ## OUTPUT
 
-Screenshot 2026-11-21 174914.png
+![alt text](<Screenshot 2026-11-21 174914.png>)
 
 
 ## RESULT
